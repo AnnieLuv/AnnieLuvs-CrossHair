@@ -1,0 +1,50 @@
+﻿  CrossHairWindow.cpp
+D:\Projects\CrossHair\Project1\CrossHairWindow.cpp(199,28): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+  MenuWindow.cpp
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(100,99): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(100,75): warning C4244: 'argument': conversion from 'INT' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(101,98): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(101,74): warning C4244: 'argument': conversion from 'INT' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(102,107): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(102,79): warning C4244: 'argument': conversion from 'INT' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(103,88): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+D:\Projects\CrossHair\Project1\MenuWindow.cpp(103,67): warning C4244: 'argument': conversion from 'INT' to 'Gdiplus::REAL', possible loss of data
+  winmain.cpp
+  Generating Code...
+  LINK : D:\Projects\CrossHair\Debug\Project1.exe not found or not built by the last incremental link; performing full link
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipAlloc@4 referenced in function "public: static void * __cdecl Gdiplus::GdiplusBase::operator new(unsigned int)" (??2GdiplusBase@Gdiplus@@SAPAXI@Z)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipAlloc@4
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipFree@4 referenced in function "public: static void __cdecl Gdiplus::GdiplusBase::operator delete(void *)" (??3GdiplusBase@Gdiplus@@SAXPAX@Z)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipFree@4
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCloneBrush@8 referenced in function "public: virtual class Gdiplus::Brush * __thiscall Gdiplus::Brush::Clone(void)const " (?Clone@Brush@Gdiplus@@UBEPAV12@XZ)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipCloneBrush@8
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDeleteBrush@4 referenced in function "public: virtual __thiscall Gdiplus::Brush::~Brush(void)" (??1Brush@Gdiplus@@UAE@XZ)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipDeleteBrush@4
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCreateSolidFill@8 referenced in function "public: __thiscall Gdiplus::SolidBrush::SolidBrush(class Gdiplus::Color const &)" (??0SolidBrush@Gdiplus@@QAE@ABVColor@1@@Z)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipCreateSolidFill@8
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCreatePen1@16 referenced in function "public: __thiscall Gdiplus::Pen::Pen(class Gdiplus::Color const &,float)" (??0Pen@Gdiplus@@QAE@ABVColor@1@M@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDeletePen@4 referenced in function "public: __thiscall Gdiplus::Pen::~Pen(void)" (??1Pen@Gdiplus@@QAE@XZ)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCloneImage@8 referenced in function "public: virtual class Gdiplus::Image * __thiscall Gdiplus::Image::Clone(void)" (?Clone@Image@Gdiplus@@UAEPAV12@XZ)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDisposeImage@4 referenced in function "public: virtual __thiscall Gdiplus::Image::~Image(void)" (??1Image@Gdiplus@@UAE@XZ)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipGetImageWidth@8 referenced in function "public: unsigned int __thiscall Gdiplus::Image::GetWidth(void)" (?GetWidth@Image@Gdiplus@@QAEIXZ)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipGetImageHeight@8 referenced in function "public: unsigned int __thiscall Gdiplus::Image::GetHeight(void)" (?GetHeight@Image@Gdiplus@@QAEIXZ)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCreateBitmapFromFile@8 referenced in function "public: __thiscall Gdiplus::Bitmap::Bitmap(wchar_t const *,int)" (??0Bitmap@Gdiplus@@QAE@PB_WH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCreateBitmapFromFileICM@8 referenced in function "public: __thiscall Gdiplus::Bitmap::Bitmap(wchar_t const *,int)" (??0Bitmap@Gdiplus@@QAE@PB_WH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipCreateFromHDC@8 referenced in function "public: __thiscall Gdiplus::Graphics::Graphics(struct HDC__ *)" (??0Graphics@Gdiplus@@QAE@PAUHDC__@@@Z)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipCreateFromHDC@8
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDeleteGraphics@4 referenced in function "public: __thiscall Gdiplus::Graphics::~Graphics(void)" (??1Graphics@Gdiplus@@QAE@XZ)
+MenuWindow.obj : error LNK2001: unresolved external symbol _GdipDeleteGraphics@4
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDrawRectangleI@24 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::DrawRectangle(class Gdiplus::Pen const *,int,int,int,int)" (?DrawRectangle@Graphics@Gdiplus@@QAE?AW4Status@2@PBVPen@2@HHHH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDrawEllipseI@24 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::DrawEllipse(class Gdiplus::Pen const *,int,int,int,int)" (?DrawEllipse@Graphics@Gdiplus@@QAE?AW4Status@2@PBVPen@2@HHHH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipFillRectangleI@24 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::FillRectangle(class Gdiplus::Brush const *,int,int,int,int)" (?FillRectangle@Graphics@Gdiplus@@QAE?AW4Status@2@PBVBrush@2@HHHH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipFillEllipseI@24 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::FillEllipse(class Gdiplus::Brush const *,int,int,int,int)" (?FillEllipse@Graphics@Gdiplus@@QAE?AW4Status@2@PBVBrush@2@HHHH@Z)
+CrossHairWindow.obj : error LNK2019: unresolved external symbol _GdipDrawImageRectI@24 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::DrawImage(class Gdiplus::Image *,int,int,int,int)" (?DrawImage@Graphics@Gdiplus@@QAE?AW4Status@2@PAVImage@2@HHHH@Z)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipCreateLineBrushI@24 referenced in function "public: __thiscall Gdiplus::LinearGradientBrush::LinearGradientBrush(class Gdiplus::Point const &,class Gdiplus::Point const &,class Gdiplus::Color const &,class Gdiplus::Color const &)" (??0LinearGradientBrush@Gdiplus@@QAE@ABVPoint@1@0ABVColor@1@1@Z)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipCreateFontFamilyFromName@12 referenced in function "public: __thiscall Gdiplus::FontFamily::FontFamily(wchar_t const *,class Gdiplus::FontCollection const *)" (??0FontFamily@Gdiplus@@QAE@PB_WPBVFontCollection@1@@Z)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipDeleteFontFamily@4 referenced in function "public: __thiscall Gdiplus::FontFamily::~FontFamily(void)" (??1FontFamily@Gdiplus@@QAE@XZ)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipCreateFont@20 referenced in function "public: __thiscall Gdiplus::Font::Font(class Gdiplus::FontFamily const *,float,int,enum Gdiplus::Unit)" (??0Font@Gdiplus@@QAE@PBVFontFamily@1@MHW4Unit@1@@Z)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipDeleteFont@4 referenced in function "public: __thiscall Gdiplus::Font::~Font(void)" (??1Font@Gdiplus@@QAE@XZ)
+MenuWindow.obj : error LNK2019: unresolved external symbol _GdipDrawString@28 referenced in function "public: enum Gdiplus::Status __thiscall Gdiplus::Graphics::DrawString(wchar_t const *,int,class Gdiplus::Font const *,class Gdiplus::PointF const &,class Gdiplus::Brush const *)" (?DrawString@Graphics@Gdiplus@@QAE?AW4Status@2@PB_WHPBVFont@2@ABVPointF@2@PBVBrush@2@@Z)
+winmain.obj : error LNK2019: unresolved external symbol _GdiplusStartup@12 referenced in function _WinMain@16
+winmain.obj : error LNK2019: unresolved external symbol _GdiplusShutdown@4 referenced in function _WinMain@16
+D:\Projects\CrossHair\Debug\Project1.exe : fatal error LNK1120: 28 unresolved externals
